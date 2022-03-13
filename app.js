@@ -16,7 +16,7 @@ let list = [];
 ca({ store: ["my"], ondata: list });
 console.log(list);
 //console.log(list[0].toString());
-const x509 = new X509Certificate(list[1]);
+const x509 = new X509Certificate(list[4]);
 console.log(x509);
 
 console.log({
